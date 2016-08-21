@@ -8,6 +8,7 @@ body {
     margin: 10px auto;
     text-align: left;
     font-size: 25px;
+    background-color: #a8f600;
 }
 
 h1 {
@@ -25,20 +26,21 @@ p {
     font-size: .8em;
 }
 
-.randomNumBox {
-    background-color: orange;
+#randomNum {
+    background-color: #fba500;
     border-radius: 5px;
     text-align: center;
     float: left;
     height: 75px;
     width:  153px;
-    color: purple;
+    color: white;
     padding: 20px;
     margin: 0 0 5px 75px;
 }
 
-.winlossBox {
-    background-color: cyan;
+#winslosses {
+    background-color: #e60d80;
+    color: white;
     border-radius: 5px;
     text-align: left;
     float: left;
@@ -51,7 +53,7 @@ p {
 .crystals {
     margin: 0 0 5px 75px;
     clear: left;
- }
+}
 
 .img {
     border-style: groove;
@@ -61,14 +63,17 @@ p {
     padding: 3px;
 }
 
-.img:hover {
-    box-shadow: 0 0 10px #ccc;
-    cursor: pointer;
+.crystal {
 
 }
 
-.scoreTxt {
-    background-color: purple;
+.img:hover {
+    box-shadow: 0 0 10px #ccc;
+    cursor: pointer;
+}
+
+#scoreTxt {
+    background-color: #0e7cff;
     border-radius: 5px;
     height: 40px;
     width:  310px;
@@ -77,14 +82,14 @@ p {
     padding-left: 10px;
 }
 
-.scoreBox {
-    background-color: yellow;
+#score {
+    background-color: #8700c8;
+    color: white;
     border-radius: 5px;
     height: 75px;
     width:  310px;
     margin: 0 0 20px 75px;
     text-align: center;
-    color: purple;
     font-size: 2em;
 }
 
