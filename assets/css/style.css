@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', 'Verdana', 'Helvetica', sans-serif;
+    color: black;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 10px auto;
+    text-align: left;
+    font-size: 25px;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: purple;
+    font-size: 300%;
+    padding-bottom: 25px;
+}
+
+.container {
+    width: 50%;
+}
+
+p {
+    font-size: .8em;
+}
+
+.randomNumBox {
+
+}
+
+.crystals {
+
+}
+
+.score {
+
+}
+
+
